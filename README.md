@@ -53,8 +53,8 @@ Resources/
 
 This project started as a binary `.4DB` example database originally distributed with 4D v16. It was converted to the modern project architecture (`.4DProject`) using 4D 21's built-in binary-to-project conversion tool.
 
-- **Blog post:** https://blog.4d.com/listbox-columns-auto-resizing/
-- **Original download:** https://download.4d.com/Demos/4D_v16/HDI_ListboxAutoResizeColumns.zip
+- **Blog post:** https://blog.4d.com/execute-action-upon-listbox-column-resizing/
+- **Original download:** https://download.4d.com/Demos/4D_v16/HDI_ListboxOnColumnResize.zip
 
 ## References
 
