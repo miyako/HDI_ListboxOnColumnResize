@@ -1,6 +1,6 @@
 # HDI_ListboxOnColumnResize
 
-A 4D v16 **HDI** (How Do I) binary database demonstrating "Execute action upon listbox column resizing", converted to a 4D project using 4D 21 and modernized with the help of **GitHub Copilot**.
+A 4D v16 **HDI** (How Do I) binary database converted to a 4D project using 4D 21 and modernized with the help of **GitHub Copilot**.
 
 ## Overview
 
