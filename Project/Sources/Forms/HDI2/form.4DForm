@@ -33,8 +33,8 @@
 					"dataSource": "TabControl",
 					"dataSourceTypeHint": "arrayText",
 					"labels": [
-						"Page 1",
-						"Page 2"
+						":xliff:HDI2_TabPage1",
+						":xliff:HDI2_TabPage2"
 					],
 					"action": "gotoPage",
 					"events": [
@@ -59,8 +59,8 @@
 					"rowHeightAutoMax": "20px",
 					"headerHeight": "40px",
 					"scrollbarHorizontal": "hidden",
-					"fill": "#EAEBF4",
-					"alternateFill": "#F2FEF1",
+					"fill": "automatic",
+					"alternateFill": "automaticAlternate",
 					"borderStyle": "none",
 					"method": "ObjectMethods/LB0.4dm",
 					"events": [
@@ -75,13 +75,11 @@
 							"minWidth": 80,
 							"maxWidth": 160,
 							"stroke": "automatic",
-							"fill": "#EAEBF4",
-							"alternateFill": "#F2FEF1",
 							"textAlign": "center",
 							"verticalAlign": "automatic",
 							"header": {
 								"name": "Header1",
-								"text": "Header1",
+								"text": ":xliff:HDI2_Header1",
 								"dataSource": "Header1",
 								"stroke": "automatic",
 								"textAlign": "automatic",
@@ -93,10 +91,11 @@
 							"footer": {
 								"name": "Footer1",
 								"stroke": "automatic",
-								"fill": "#EAEBF4",
+								"fill": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
-							}
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column2",
@@ -106,8 +105,6 @@
 							"minWidth": 120,
 							"maxWidth": 240,
 							"stroke": "automatic",
-							"fill": "#EAEBF4",
-							"alternateFill": "#F2FEF1",
 							"textAlign": "center",
 							"verticalAlign": "automatic",
 							"events": [
@@ -116,7 +113,7 @@
 							],
 							"header": {
 								"name": "Header2",
-								"text": "Header2",
+								"text": ":xliff:HDI2_Header2",
 								"dataSource": "Header2",
 								"stroke": "automatic",
 								"textAlign": "automatic",
@@ -128,10 +125,11 @@
 							"footer": {
 								"name": "Footer2",
 								"stroke": "automatic",
-								"fill": "#EAEBF4",
+								"fill": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
-							}
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column3",
@@ -141,8 +139,6 @@
 							"minWidth": 140,
 							"maxWidth": 360,
 							"stroke": "automatic",
-							"fill": "#EAEBF4",
-							"alternateFill": "#F2FEF1",
 							"textAlign": "center",
 							"verticalAlign": "automatic",
 							"events": [
@@ -151,7 +147,7 @@
 							],
 							"header": {
 								"name": "Header3",
-								"text": "Header3",
+								"text": ":xliff:HDI2_Header3",
 								"dataSource": "Header3",
 								"stroke": "automatic",
 								"textAlign": "automatic",
@@ -163,10 +159,11 @@
 							"footer": {
 								"name": "Footer3",
 								"stroke": "automatic",
-								"fill": "#EAEBF4",
+								"fill": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
-							}
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column4",
@@ -176,8 +173,6 @@
 							"minWidth": 80,
 							"maxWidth": 240,
 							"stroke": "automatic",
-							"fill": "#EAEBF4",
-							"alternateFill": "#F2FEF1",
 							"textAlign": "center",
 							"verticalAlign": "automatic",
 							"events": [
@@ -186,7 +181,7 @@
 							],
 							"header": {
 								"name": "Header4",
-								"text": "Header4",
+								"text": ":xliff:HDI2_Header4",
 								"dataSource": "Header4",
 								"stroke": "automatic",
 								"textAlign": "automatic",
@@ -198,12 +193,14 @@
 							"footer": {
 								"name": "Footer4",
 								"stroke": "automatic",
-								"fill": "#EAEBF4",
+								"fill": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
-							}
+							},
+							"truncateMode": "none"
 						}
-					]
+					],
+					"resizingMode": "legacy"
 				},
 				"Text": {
 					"type": "text",
@@ -213,7 +210,8 @@
 					"height": 160,
 					"textAlign": "left",
 					"fontWeight": "bold",
-					"text": "The event \"On Column Resize\" is now generated \"live\", as long as the columns are resized by the user.\r\rIn the example below, the column widths are displayed in each column. Resize the columns to see the widths updated \"live\".\r\rThe color is set to blue when the column reaches its minimal width and to red when it reaches its maximum width."
+					"text": ":xliff:HDI2_Text1",
+					"stroke": "automatic"
 				}
 			}
 		},
@@ -233,8 +231,8 @@
 					"rowHeightAutoMax": "20px",
 					"headerHeight": "40px",
 					"scrollbarHorizontal": "hidden",
-					"fill": "#EAEBF4",
-					"alternateFill": "#F2FEF1",
+					"fill": "automatic",
+					"alternateFill": "automaticAlternate",
 					"borderStyle": "none",
 					"columns": [
 						{
@@ -246,8 +244,6 @@
 							"maxWidth": 240,
 							"truncateMode": "none",
 							"stroke": "automatic",
-							"fill": "#EAEBF4",
-							"alternateFill": "#F2FEF1",
 							"textAlign": "center",
 							"verticalAlign": "automatic",
 							"events": [
@@ -256,7 +252,7 @@
 							"method": "ObjectMethods/ColDate.4dm",
 							"header": {
 								"name": "Header5",
-								"text": "Date",
+								"text": ":xliff:HDI2_ColDate",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic",
@@ -267,7 +263,7 @@
 							"footer": {
 								"name": "Footer5",
 								"stroke": "automatic",
-								"fill": "#EAEBF4",
+								"fill": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
 							}
@@ -281,8 +277,6 @@
 							"maxWidth": 120,
 							"timeFormat": "hh_mm",
 							"stroke": "automatic",
-							"fill": "#EAEBF4",
-							"alternateFill": "#F2FEF1",
 							"textAlign": "center",
 							"verticalAlign": "automatic",
 							"events": [
@@ -291,7 +285,7 @@
 							"method": "ObjectMethods/ColTime.4dm",
 							"header": {
 								"name": "Header6",
-								"text": "Time",
+								"text": ":xliff:HDI2_ColTime",
 								"dataSource": "Header2",
 								"stroke": "automatic",
 								"textAlign": "automatic",
@@ -303,10 +297,11 @@
 							"footer": {
 								"name": "Footer6",
 								"stroke": "automatic",
-								"fill": "#EAEBF4",
+								"fill": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
-							}
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "ColValue",
@@ -317,8 +312,6 @@
 							"maxWidth": 160,
 							"numberFormat": "############ ",
 							"stroke": "automatic",
-							"fill": "#EAEBF4",
-							"alternateFill": "#F2FEF1",
 							"textAlign": "right",
 							"verticalAlign": "automatic",
 							"events": [
@@ -327,7 +320,7 @@
 							"method": "ObjectMethods/ColValue.4dm",
 							"header": {
 								"name": "Header7",
-								"text": "Value",
+								"text": ":xliff:HDI2_ColValue",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic",
@@ -338,10 +331,11 @@
 							"footer": {
 								"name": "Footer7",
 								"stroke": "automatic",
-								"fill": "#EAEBF4",
+								"fill": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
-							}
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "ColPhone",
@@ -351,8 +345,6 @@
 							"maxWidth": 140,
 							"textFormat": "## ######### ",
 							"stroke": "automatic",
-							"fill": "#EAEBF4",
-							"alternateFill": "#F2FEF1",
 							"textAlign": "right",
 							"verticalAlign": "automatic",
 							"events": [
@@ -361,7 +353,7 @@
 							"method": "ObjectMethods/ColPhone.4dm",
 							"header": {
 								"name": "Header8",
-								"text": "Phone",
+								"text": ":xliff:HDI2_ColPhone",
 								"dataSource": "Header4",
 								"stroke": "automatic",
 								"textAlign": "automatic",
@@ -373,12 +365,14 @@
 							"footer": {
 								"name": "Footer8",
 								"stroke": "automatic",
-								"fill": "#EAEBF4",
+								"fill": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
-							}
+							},
+							"truncateMode": "none"
 						}
-					]
+					],
+					"resizingMode": "legacy"
 				},
 				"Text1": {
 					"type": "text",
@@ -388,7 +382,8 @@
 					"height": 160,
 					"textAlign": "left",
 					"fontWeight": "bold",
-					"text": "The event \"On Column Resize\" is now generated \"live\", as long as the columns are resized by the user.\r\rIn the example below, the column are reformatted according to their widths.\r\rThe \"date\", \"time\", \"numeric\" and even \"text\" formats can be redefined according to the space available for display!"
+					"text": ":xliff:HDI2_Text2",
+					"stroke": "automatic"
 				}
 			}
 		}

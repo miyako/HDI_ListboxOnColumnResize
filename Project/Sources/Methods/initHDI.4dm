@@ -8,7 +8,6 @@ SELECTION TO ARRAY:C260([SAMPLES:3]Title:2; TabControl; [SAMPLES:3]Text:3; TextT
 
 UNLOAD RECORD:C212([SAMPLES:3])
 
-TabControl:=0
 Var1:=TextTabControl{1}
 Var2:=TextTabControl{2}
 Var3:=TextTabControl{3}

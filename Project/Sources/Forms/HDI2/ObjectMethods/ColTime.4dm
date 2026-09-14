@@ -1,5 +1,5 @@
-C_POINTER:C301($p)
-C_LONGINT:C283($width)
+var $p : Pointer
+var $width : Integer
 
 Case of 
 	: (Form event code:C388=On Column Resize:K2:31)

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Sources/Forms/HDI2/form.4DForm" source-language="en" target-language="en">
+    <body>
+      <trans-unit id="HDI2_TabPage1" resname="HDI2_TabPage1">
+        <source>Page 1</source>
+        <target>Page 1</target>
+      </trans-unit>
+      <trans-unit id="HDI2_TabPage2" resname="HDI2_TabPage2">
+        <source>Page 2</source>
+        <target>Page 2</target>
+      </trans-unit>
+      <trans-unit id="HDI2_Header1" resname="HDI2_Header1">
+        <source>Header1</source>
+        <target>Header1</target>
+      </trans-unit>
+      <trans-unit id="HDI2_Header2" resname="HDI2_Header2">
+        <source>Header2</source>
+        <target>Header2</target>
+      </trans-unit>
+      <trans-unit id="HDI2_Header3" resname="HDI2_Header3">
+        <source>Header3</source>
+        <target>Header3</target>
+      </trans-unit>
+      <trans-unit id="HDI2_Header4" resname="HDI2_Header4">
+        <source>Header4</source>
+        <target>Header4</target>
+      </trans-unit>
+      <trans-unit id="HDI2_ColDate" resname="HDI2_ColDate">
+        <source>Date</source>
+        <target>Date</target>
+      </trans-unit>
+      <trans-unit id="HDI2_ColTime" resname="HDI2_ColTime">
+        <source>Time</source>
+        <target>Time</target>
+      </trans-unit>
+      <trans-unit id="HDI2_ColValue" resname="HDI2_ColValue">
+        <source>Value</source>
+        <target>Value</target>
+      </trans-unit>
+      <trans-unit id="HDI2_ColPhone" resname="HDI2_ColPhone">
+        <source>Phone</source>
+        <target>Phone</target>
+      </trans-unit>
+      <trans-unit id="HDI2_Text1" resname="HDI2_Text1">
+        <source>The event "On Column Resize" is now generated "live", as long as the columns are resized by the user.In the example below, the column widths are displayed in each column. Resize the columns to see the widths updated "live".The color is set to blue when the column reaches its minimal width and to red when it reaches its maximum width.</source>
+        <target>The event "On Column Resize" is now generated "live", as long as the columns are resized by the user.In the example below, the column widths are displayed in each column. Resize the columns to see the widths updated "live".The color is set to blue when the column reaches its minimal width and to red when it reaches its maximum width.</target>
+      </trans-unit>
+      <trans-unit id="HDI2_Text2" resname="HDI2_Text2">
+        <source>The event "On Column Resize" is now generated "live", as long as the columns are resized by the user.In the example below, the column are reformatted according to their widths.The "date", "time", "numeric" and even "text" formats can be redefined according to the space available for display!</source>
+        <target>The event "On Column Resize" is now generated "live", as long as the columns are resized by the user.In the example below, the column are reformatted according to their widths.The "date", "time", "numeric" and even "text" formats can be redefined according to the space available for display!</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
