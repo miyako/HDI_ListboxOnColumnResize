@@ -1,0 +1,13 @@
+/* Cross-platform dark mode rules. */
+
+@media (prefers-color-scheme: light) {
+	.hdi-warning {
+		stroke: #FF4D00;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	.hdi-warning {
+		stroke: #FF8656;
+	}
+}

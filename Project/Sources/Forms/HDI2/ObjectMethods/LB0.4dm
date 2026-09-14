@@ -1,6 +1,6 @@
-C_LONGINT:C283($foreground; $background; $alternate)
-C_LONGINT:C283($width; $minWidth; $maxWidth)
-C_LONGINT:C283($i)
+var $foreground; $background; $alternate : Integer
+var $width; $minWidth; $maxWidth : Integer
+var $i : Integer
 
 Case of 
 	: (Form event code:C388=On Column Resize:K2:31)
