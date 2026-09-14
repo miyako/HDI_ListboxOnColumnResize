@@ -1,0 +1,11 @@
+//%attributes = {"invisible":true}
+ARRAY LONGINT:C221(Column1; 0)
+ARRAY LONGINT:C221(Column2; 0)
+ARRAY LONGINT:C221(Column3; 0)
+ARRAY LONGINT:C221(Column4; 0)
+ARRAY TEXT:C222(TabControl; 0)
+ARRAY TEXT:C222(TextTabControl; 0)
+ARRAY DATE:C224(_Date; 0)
+ARRAY TEXT:C222(_phone; 0)
+ARRAY TIME:C1223(_Time; 0)
+ARRAY REAL:C219(_Value; 0)
